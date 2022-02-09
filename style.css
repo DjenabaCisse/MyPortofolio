@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'angle';
+    src: url('font/angle.woff') format('woff'), /* Modern Browsers */
+         url('font/angle.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sarabun', sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, tan, white);
+    background-size: cover;
+    color :rgb(82, 64, 41);
+}
+
+.about{
+    height: 300vh;
+    display : flex;
+}
+
+.about-title {
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    font-size : 30px;
+    margin: 0!important;
+    background-color: rgb(243, 224, 200);
+    color :rgb(82, 64, 41);
+}
+
+.profil {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items : center; 
+  
+}
+
+.nom{
+    display: inline;
+    margin-right: auto;
+    margin-left:auto;
+    margin:auto;
+    text-align: center;
+    color: white;
+    font-family: 'angle', cursive;
+    font-variant-ligatures: discretionary-ligatures;
+    letter-spacing: normal;
+    color :rgb(82, 64, 41);
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.about-pages {
+    width: 50%; 
+}
+
+.about-pages div{
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content : space-around;
+    align-items: center;
+    color: white;
+}
+
+.about-pages div> p{
+    width: 80%; 
+    font-size:18px; 
+    line-height: 30px;
+}
+
+.about-pages div:nth-child(1){
+    background-color : tan;
+    
+
+}
+
+.about-pages div:nth-child(2){
+    background-color : rgb(219, 189, 148) ; 
+
+}
+
+.about-pages div:nth-child(3){
+    background-color : tan;
+    
+}
+
+footer{
+    height: 100vh;
+    background: linear-gradient(to bottom, tan, white);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0!important;
+    color :rgb(82, 64, 41);
+}
